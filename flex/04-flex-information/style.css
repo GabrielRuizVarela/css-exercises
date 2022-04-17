@@ -1,5 +1,16 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.icons-text{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.indiv {
+  max-width: 200px;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
 }
 
 img {
@@ -8,6 +19,7 @@ img {
 }
 
 .title {
+  margin: 32px;
   font-size: 36px;
   font-weight: 900;
 }
